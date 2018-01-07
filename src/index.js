@@ -1,7 +1,7 @@
 import {add} from './math'
 
 
-const sum = add(10 ,20)
+const sum = add(12 ,20)
 console.log(sum)
 
 let a = 'Test'
