@@ -4,7 +4,7 @@
   "description": "Basic JavaScript ES2015 and Node.js",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/poomer123/basic-js-es6#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
   }
 }
