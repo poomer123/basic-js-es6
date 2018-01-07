@@ -65,30 +65,35 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(1);
 
 
+var _math = __webpack_require__(1);
 
-const sum = Object(__WEBPACK_IMPORTED_MODULE_0__math__["a" /* add */])(10 ,20)
-console.log(sum)
+var sum = (0, _math.add)(10, 20);
+console.log(sum);
 
-let a = 'Test'
-console.log(a)
-
-
+var a = 'Test';
+console.log(a);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = add;
-function add(a=1, b=2) {
-	return a + b
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.add = add;
+function add() {
+	var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+	var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+
+	return a + b;
 }
 
 /***/ })
