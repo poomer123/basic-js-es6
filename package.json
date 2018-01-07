@@ -4,7 +4,8 @@
   "description": "Basic JavaScript ES2015 and Node.js",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
