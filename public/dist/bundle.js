@@ -72,7 +72,7 @@
 
 var _math = __webpack_require__(1);
 
-var sum = (0, _math.add)(10, 20);
+var sum = (0, _math.add)(12, 20);
 console.log(sum);
 
 var a = 'Test';
